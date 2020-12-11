@@ -82,7 +82,6 @@ const Main = () => {
       <Route exact path="/graduates" component={GraduateList} />
       <Route exact path="/graduates/new" component={GraduateAdd} />
       <Route exact path="/graduates/:_id" component={PreviewProfile} />
-      <Route exact path="/graduates/:_id" component={GraduateProfile} />
       <Route exact path="/graduates/:_id/edit" component={GraduateEdit} />
     </Switch>
   );
